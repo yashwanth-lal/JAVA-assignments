@@ -1,0 +1,22 @@
+Reflect on class, function and variable naming conventions on StringBuilder or LocalDateTime class
+ 
+
+STRING BUILDER:-As we know the Strings class provides an immutable succession of characters
+	       but by using Stringbuilder class let us to create a mutable and modifiable succession of characters.
+
+LocalDateTime:-Java LocalDateTime class is an immutable date-time object that represents a date-time,
+ 	      with the default format as yyyy-MM-dd-HH-mm-s
+
+StrinBuilder 
+- It is a mutable sequence of characters.
+- The class provides no guarantee of synchronization.
+- Class names are typed in uppercase and meaningful.
+- Variables and function names are typed in a camel case.
+
+LocalDateTime
+- To display date and time
+- It is final class and no extension of the class is allowed
+- Class names are typed in uppercase and meaningful.
+- Variables and function names are typed in a camel case.
+
+These conventions have become apart of Java that all the developers should follow.
